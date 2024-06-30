@@ -2,12 +2,8 @@
 =====
 ## About me 
 ===
-My name is Aliaksei. I'm from Belarus, but now I live in Poland. I have basic layout skills, as well as professional communication skills.
-# Aliaksei Kalbasin
-=====
-## About me 
-===
-My name is Aliaksei. I'm from Belarus, but now I live in Poland. I have basic layout skills, as well as professional communication skills.
+##### My name is Aliaksei. I'm from Belarus, but now I live in Poland. I have basic layout skills, as well as professional communication skills.
+
 ===
 ## Skills
 * __HTML__
@@ -17,9 +13,9 @@ My name is Aliaksei. I'm from Belarus, but now I live in Poland. I have basic la
 ===
 
 ## Language
-* English __A1__
-* Polish __A1__
-* Russian __C2__
+* ### English __A1
+* ### Polish __A1
+* ### Russian __C2
 ===
 ## Contacts
 ### email: __alexey.alexandrovich7@gmail.com__
