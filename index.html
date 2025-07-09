@@ -3,8 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <div class="header-pic">
+                <img src="img/bobr.png" alt="Profile Picture">
+            </div>
+            <div class="header-content">
+                <h1>Aliaksei</h1>
+            </div>
+        </div>
+    </header>
+    <main class="main-content container">
+        <aside class="left-column">
+            <section class="contacts">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li>Email: <a href="mailto:alexey.alexandrovich7@gmail.com">alexey.alexandrovich7@gmail.com</a></li>
+                    <li>Phone: <a href="tel:+48111111111">+48111111111</a></li>
+                    <li>Location: Poland</li>
+                </ul>
+            </section>
+            <section class="education">
+                <h2>Education</h2>
+                <p class="education-university">Belarussian State University</p>
+            </section>
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>Figma, Adobe Photoshop</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+            <section class="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English A1</li>
+                    <li>Polish A1</li>
+                    <li>Russian C2</li>
+                </ul>
+            </section>
+            <section class="social-media">
+                <h2>Social Media</h2>
+                <nav class="icons">
+                    <a href="#" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </nav>
+            </section>
+        </aside>
+        <div class="right-column">
+            <section class="about">
+                <h2>About Me</h2>
+                <p>I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.</p>
+            </section>
+            <section class="project">
+                <h2>My project</h2>
+                <p><a href="https://github.com/sil11nci0/start-clean" class="project_startClean">Start clean</a></p>
+            </section>
+            <section class="code">
+                <h2>Code Example</h2>
+                <pre><code>
+            function changeColor() {
+                // Генерируем случайный цвет
+                let color = '#' + Math.floor(Math.random()*16777215).toString(16);
+                // Применяем цвет к тексту абзаца
+                document.body.style.color = color;
+            }
+                </code></pre>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container-icons-footer">
+            <nav class="footer-icons">
+                <a href="https://github.com/sil11nci0" aria-label="Git"><img src="img/git.png" alt="Git logo"></a>
+                <a href="https://rs.school/courses/javascript-preschool-ru" aria-label="rsschool"><img src="img/rs.svg" alt="Rsschool logo"></a>
+            </nav>
+            <p><b>&copy; 2025</b></p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/2fc25bee8a.js" crossorigin="anonymous"></script>
 </body>
 </html>
