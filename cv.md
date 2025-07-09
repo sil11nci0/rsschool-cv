@@ -8,3 +8,13 @@
 ## Education
 
 - Belarussian State University
+
+## Skills
+
+- HTML, CSS, JavaScript, Bootstrap
+
+## Language
+
+- Russian: C2
+- English: A1
+- Polish: A1
